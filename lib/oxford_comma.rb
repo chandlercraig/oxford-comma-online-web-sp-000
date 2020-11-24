@@ -9,6 +9,5 @@ def oxford_comma(array)
     new_arr << ox_com
     new_arr.unshift(array)
     new_arr.join()
-
   end
 end
