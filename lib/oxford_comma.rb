@@ -4,7 +4,7 @@ def oxford_comma(array)
   elsif array.length == 2
     return array.join(" and ")
   elsif array.length > 2
-    new_arr []
+    new_arr = []
     ox_com = " and " + array.pop
     new_arr << ox_com
     new_arr.unshift(array)
