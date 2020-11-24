@@ -6,7 +6,9 @@ def oxford_comma(array)
   elsif array.length > 2
     new_arr []
     ox_com = " and " + array.pop
-    new_arr = [array, ox_com]
+    new_arr << ox_com
+    new_arr.unshift(array)
     new_arr.join()
+
   end
 end
